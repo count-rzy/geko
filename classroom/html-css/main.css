@@ -1,0 +1,32 @@
+/** {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.box{
+    border: 5px solid black;
+    aspect-ratio: 1/1;
+}
+.box1{
+    width: 300px;
+    padding: 45px;
+    margin: 30px;
+    border-style: dashed solid solid dashed;
+    border-color: black red red black;
+    border-radius: 0 0 50% 0;
+
+}
+
+.box2{
+    width: 200px;
+    padding: 45px;
+     border-radius: 0 0 50% 0;
+}
+
+.box3{
+    width: 100px;
+    border-color: lime;
+    border-radius: 50% 0;
+}

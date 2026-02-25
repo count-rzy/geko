@@ -1,0 +1,21 @@
+ body {
+    background: #0B2429;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div {
+    width: 150px;
+    height: 150px;
+    background: #998235;
+    border-radius: 100px 0px;
+    position: absolute;
+  }
+  #left {
+    background: #1A4341;
+    left: 75px;
+  }
+  #right {
+    background: #F3AC3C;
+    right: 75px;
+  }

@@ -1,0 +1,30 @@
+body {
+    background: #6592CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #rec {
+    width: 300px;
+    height: 150px;
+    background: #243D83;
+  }
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+  }
+  #c1 {
+    background: #6592CF;
+    height: 250px;
+    width: 250px;
+  }
+  #c2 {
+    background: #243D83;
+    height: 150px;
+    width: 150px;
+  }
+  #c3 {
+    background: #EEB850;
+    height: 50px;
+    width: 50px;
+  }

@@ -63,4 +63,67 @@
     padding: 100px;
     margin: 30px;
 }
-    */
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    position: relative;
+}
+
+    .box{
+        border: 5px solid #0008;
+        width: 90vw;
+        height: 300px;
+        margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    }
+
+    .f{
+        width: 50px;
+        height: 50px;
+        background: #000;
+        font-family: sans-serif;
+        color: white;
+        font-size: 24px;
+    }
+
+ f1{
+        order: 1;
+    }
+
+f2{
+order: 2;
+    }
+
+ f3{
+order: 5;
+    }
+
+ f4{
+order: 8;
+    }
+
+ f5{
+order: 1;
+    }
+
+
+f6{
+   order: 4;
+    }
+
+
+f7{
+order: 41;
+    }
+*/
+
+

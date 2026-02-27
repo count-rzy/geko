@@ -1,0 +1,18 @@
+.container{
+ background-color: #3F4869;
+width: 400px;
+height:  300px;
+}
+
+
+
+
+
+
+
+
+.circle{
+width: 180px;
+aspect-ratio: 1/1;
+background: conic-gradient();
+}

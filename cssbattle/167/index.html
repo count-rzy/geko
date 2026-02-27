@@ -1,17 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Battle 167</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-    <div class="container">
-        <div class="r1"></div>
-        <div class="r2"></div>
-        <div class="r3"></div>
-<div class="round"></div>
-    </div>
-</body>
-</html>
+<div></div>
+<div id="green"></div>
+<div id="orange"></div>
+<style>
+  body {
+    background: radial-gradient(circle, #73C6EA 20px, #0D1335 20px);
+    display: grid;
+    place-items: center;
+  }
+  div {
+    width: 230px;
+    height: 90px;
+    border: 10px solid #FBFAE2;
+    border-radius: 50%;
+    position: absolute;
+  }
+  #green {
+    rotate: -60deg;
+    border-color: #4FA07B;
+  }
+  #orange {
+    rotate: 60deg;
+    border-color: #DC6638;
+  }
+</style>

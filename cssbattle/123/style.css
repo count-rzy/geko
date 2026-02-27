@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 
@@ -8,16 +9,42 @@
     background: #C74E4E;
     width: 400px;
     height: 300px;
-    
+    gap: 5px
+    ;
     padding: 90px;
+    display: flex;
+    flex-direction: column;
 }
 
 
 .row{
-    border: 1px solid #000;
-     
 
+     
+    display: flex;
+    
 }
+
+.r1{
+    justify-content: space-between;
+}
+
+.r2{
+    flex-direction: column;
+    align-items: end;
+    gap: 5px;
+}
+
+.r3{
+    justify-content: end;
+    gap: 5px;
+}
+
+.inner{
+    display: flex;
+    gap: 5px;
+}
+
+
 
 .round{
     width: 20px;

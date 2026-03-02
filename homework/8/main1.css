@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background: #cfd8dc;
+    font-family: "Roboto", sans-serif;
+}
+
+.wrap {
+    width: 80%;
+    margin: 60px auto;
+    background: #222831;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    font-weight: 700;
+}
+
+.navbar {
+    display: flex;
+    gap: 40px;
+}
+
+.link {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.btn {
+    background: #00adb5;
+    color: white;
+    border: none;
+    padding: 8px 22px;
+    border-radius: 20px;
+}

@@ -1,0 +1,36 @@
+.container{
+    width: 90%;
+    background-color: rgb(20, 36, 56);
+    margin:5% 0% 0% 5%;
+    border-radius: 3px;
+    font-family: "Roboto",sans-serif;
+}
+.wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;;
+    justify-content: space-between;
+   padding:10px;
+}
+.logo{
+    font-size: 18px;
+    color:white;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.navbar{
+    display: flex;
+    gap: 20px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+.btn{
+background: #00a8c6;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 25px;
+}

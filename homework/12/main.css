@@ -1,0 +1,124 @@
+body{
+  background:#222;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+
+.container{
+  background:#111;
+  padding:20px;
+  border-radius:15px;
+  width:120px;
+  box-shadow:0 0 20px black;
+}
+
+
+.light{
+  width:80px;
+  height:80px;
+  border-radius:50%;
+  margin:15px auto;
+  background:#333;
+}
+
+
+.red{
+  animation:redLight 12s infinite;
+}
+
+
+.yellow{
+  animation:yellowLight 12s infinite;
+}
+
+
+.green{
+  animation:greenLight 12s infinite;
+}
+
+@keyframes redLight{
+  0%{
+    background:red;
+    box-shadow:0 0 20px red;
+  }
+
+  20%{
+    background:red;
+    box-shadow:0 0 20px red;
+  }
+
+  30%{
+    background:red;
+    box-shadow:0 0 20px red;
+  }
+
+  31%,100%{
+    background:#333;
+    box-shadow:none;
+  }
+}
+
+
+@keyframes yellowLight{
+
+  0%,19%{
+    background:#333;
+    box-shadow:none;
+  }
+
+  20%,30%{
+    background:yellow;
+    box-shadow:0 0 20px yellow;
+  }
+
+  70%,80%{
+    background:yellow;
+    box-shadow:0 0 20px yellow;
+  }
+
+  81%,100%{
+    background:#333;
+    box-shadow:none;
+  }
+}
+
+@keyframes greenLight{
+
+  0%,30%{
+    background:#333;
+    box-shadow:none;
+  }
+
+  31%,55%{
+    background:lime;
+    box-shadow:0 0 20px lime;
+  }
+
+  60%{
+    background:#333;
+    box-shadow:none;
+  }
+
+  65%{
+    background:lime;
+    box-shadow:0 0 20px lime;
+  }
+
+  70%{
+    background:#333;
+    box-shadow:none;
+  }
+
+  75%{
+    background:lime;
+    box-shadow:0 0 20px lime;
+  }
+
+  80%,100%{
+    background:#333;
+    box-shadow:none;
+  }
+}

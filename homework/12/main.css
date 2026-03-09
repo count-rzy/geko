@@ -26,99 +26,73 @@ body{
 
 
 .red{
-  animation:redLight 12s infinite;
+  animation:redLight 15s infinite;
 }
 
 
 .yellow{
-  animation:yellowLight 12s infinite;
+  animation:yellowLight 15s infinite;
 }
 
 
 .green{
-  animation:greenLight 12s infinite;
+  animation:greenLight 15s infinite;
 }
 
 @keyframes redLight{
-  0%{
-    background:red;
-    box-shadow:0 0 20px red;
-  }
+0%,45%{
+  background: red;
+}
+46%{
+  background: #888;
+}
 
-  20%{
-    background:red;
-    box-shadow:0 0 20px red;
-  }
 
-  30%{
-    background:red;
-    box-shadow:0 0 20px red;
-  }
-
-  31%,100%{
-    background:#333;
-    box-shadow:none;
-  }
 }
 
 
 @keyframes yellowLight{
-
-  0%,19%{
-    background:#333;
-    box-shadow:none;
+0%,38%{
+  background: #888;
+}
+  39%,45%{
+  background: yellow;
+}
+  93%,100%{
+    background: yellow;
   }
-
-  20%,30%{
-    background:yellow;
-    box-shadow:0 0 20px yellow;
-  }
-
-  70%,80%{
-    background:yellow;
-    box-shadow:0 0 20px yellow;
-  }
-
-  81%,100%{
-    background:#333;
-    box-shadow:none;
+  46%,92%{
+    background: #888;
   }
 }
 
 @keyframes greenLight{
 
-  0%,30%{
-    background:#333;
-    box-shadow:none;
-  }
+0%,45%{
+  background: #888;
+}
 
-  31%,55%{
-    background:lime;
-    box-shadow:0 0 20px lime;
-  }
+ 46%,71%{
+  background: lime;
+ }
 
-  60%{
-    background:#333;
-    box-shadow:none;
-  }
 
-  65%{
-    background:lime;
-    box-shadow:0 0 20px lime;
-  }
+76%,79%{
+  background: #888;
+}
 
-  70%{
-    background:#333;
-    box-shadow:none;
-  }
+80%,83%{
+  background: lime;
+}
+84%,87%{
+  background: #888;
+}
 
-  75%{
-    background:lime;
-    box-shadow:0 0 20px lime;
-  }
+88%,92%{
+  background: lime;
+}
 
-  80%,100%{
-    background:#333;
-    box-shadow:none;
-  }
+93%{
+  background: #888;
+}
 }

@@ -27,16 +27,22 @@ body{
 
 .red{
   animation:redLight 15s infinite;
+  box-shadow:0 0 20px #888;
+  
 }
 
 
 .yellow{
   animation:yellowLight 15s infinite;
+  box-shadow:0 0 20px #888;
+  
 }
 
 
 .green{
   animation:greenLight 15s infinite;
+  box-shadow:0 0 20px #888;
+  
 }
 
 @keyframes redLight{

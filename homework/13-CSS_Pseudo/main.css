@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 112vh;
+    aspect-ratio: 1/1;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+}
+.a{
+width: 100px;
+aspect-ratio: 1/1;
+}
+.b{
+background-color: grey;
+width: 100px;
+aspect-ratio: 1/1;
+}
+.navak1{
+width: 100px;
+aspect-ratio: 1/1;
+}
+.navak1::after{
+    content: "\265c";
+    font-size: 80px;
+}
+.navak2{
+width: 100px;
+aspect-ratio: 1/1;
+background-color: grey;
+}
+.navak2::after{
+    content: "\265c";
+    font-size: 80px;
+}
+.dzi1{
+width: 100px;
+aspect-ratio: 1/1;
+background-color: grey;
+
+}
+.dzi1::after{
+    content: "\265e";
+    font-size: 80px;
+}
+.dzi2{
+width: 100px;
+aspect-ratio: 1/1;
+background-color: rgb(255, 255, 255);
+}
+.dzi2::after{
+    content: "\265e";
+    font-size: 80px;
+}
+.pix1{
+width: 100px;
+aspect-ratio: 1/1;
+
+}
+.pix1::after{
+    content: "\265d";
+    font-size: 80px;
+}
+.pix2{
+width: 100px;
+aspect-ratio: 1/1;
+background-color: grey;
+}
+.pix2::after{
+    content: "\265d";
+    font-size: 80px;
+}
+.queen{
+width: 100px;
+aspect-ratio: 1/1;
+background-color: grey;  
+}
+.queen::after{
+    content: "\265b";
+    font-size: 80px;
+}
+.king{
+width: 100px;
+aspect-ratio: 1/1;
+background-color: rgb(255, 255, 255);  
+}
+.king::after{
+    content: "\265a";
+    font-size: 80px;
+}
+.zinvor1{
+width: 100px;
+aspect-ratio: 1/1; 
+background-color: grey;
+}
+.zinvor1::after{
+    content:"\265f";
+    font-size: 80px;
+
+}
+.zinvor2{
+width: 100px;
+aspect-ratio: 1/1; 
+}
+.zinvor2::after{
+    content:"\265f";
+    font-size: 80px;
+}
+.navak3{
+width: 100px;
+aspect-ratio: 1/1;
+background-color: grey;
+}
+.navak3::after{
+    content: "\2656";
+    font-size: 80px;
+}
+.navak4{
+width: 100px;
+aspect-ratio: 1/1;
+}
+.navak4::after{
+    content: "\2656";
+    font-size: 80px;
+}
+.dzi3{
+width: 100px;
+aspect-ratio: 1/1;
+background-color: rgb(255, 255, 255);
+
+}
+.dzi3::after{
+    content: "\2658";
+    font-size: 80px;
+}
+.dzi4{
+width: 100px;
+aspect-ratio: 1/1;
+background-color: grey;
+}
+.dzi4::after{
+    content: "\2658";
+    font-size: 80px;
+}
+.pix3{
+width: 100px;
+aspect-ratio: 1/1;
+background-color: grey;
+}
+.pix3::after{
+    content: "\2657";
+    font-size: 80px;
+}
+.pix4{
+width: 100px;
+aspect-ratio: 1/1;
+}
+.pix4::after{
+    content: "\2657";
+    font-size: 80px;
+}
+.king1{
+    width: 100px;
+aspect-ratio: 1/1;
+background-color: grey;
+}
+.king1::after{
+content: "\2654";
+font-size: 80px;
+}
+.queen1{
+    width: 100px;
+aspect-ratio: 1/1;
+background-color: rgb(255, 255, 255);
+}
+.queen1::after{
+content: "\2655";
+font-size: 80px;
+}
+.zinvor3{
+width: 100px;
+aspect-ratio: 1/1; 
+background-color: grey;
+}
+.zinvor3::after{
+    content:"\2659";
+    font-size: 80px;
+}
+.zinvor4{
+width: 100px;
+aspect-ratio: 1/1; 
+}
+.zinvor4::after{
+    content:"\2659";
+    font-size: 80px;
+}
+.f[class]{
+  cursor: grab;
+}
+.f[class]:active{
+  cursor: grabbing;
+}

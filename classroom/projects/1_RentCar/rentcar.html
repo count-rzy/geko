@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rent Cars</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js"
+        integrity="sha512-6BTOlkauINO65nLhXhthZMtepgJSghyimIalb+crKRPhvhmsCdnIuGcVbR5/aQY2A+260iC1OPy1oCdB6pSSwQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="rentcar.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container">
             <div class="header_wrap">
-                <div class="header_logo">
+                <a href="#hero" class="header_logo">
                     <img src="./img/logo.svg" alt="Logo">
-                </div>
+                </a>
                 <nav class="header_nav">
                     <ul class="header_navlist">
                         <li class="header_navitem"><a href="#" class="header_navlink">Become a renter</a></li>
@@ -33,12 +41,13 @@
             </div>
         </div>
     </header>
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="container">
             <div class="hero_wrap">
                 <div class="hero_block">
                     <h1 class="hero_title">Find, book and rent a car <span class="hero_highlight">Easily</span></h1>
-                    <p class="hero_text">Get a car wherever and whenever you need it with your IOS and Android device.</p>
+                    <p class="hero_text">Get a car wherever and whenever you need it with your IOS and Android device.
+                    </p>
                     <div class="hero_market">
                         <a href="#" class="hero_link">
                             <img src="./img/play_market.svg" alt="Play Market">
@@ -50,27 +59,301 @@
                 </div>
                 <form class="hero_form">
                     <div class="hero_group">
-                        <div class="hero_form_icon"><span class="material-symbols-outlined">location_on</span></div>
+                        <div class="hero_form_icon"><i class="fa-solid fa-location-dot"></i></div>
                         <div class="hero_form_title">Location</div>
                         <div class="hero_form_text">Search your location</div>
                     </div>
                     <div class="hero_group">
-                        <div class="hero_form_icon"><span class="material-symbols-outlined">calendar_month</span></div>
+                        <div class="hero_form_icon"><i class="fa-solid fa-calendar-days"></i></div>
                         <div class="hero_form_title">Pickup date</div>
                         <div class="hero_form_text">Tue 15 Feb, 09:00</div>
                     </div>
                     <div class="hero_group">
-                        <div class="hero_form_icon"><span class="material-symbols-outlined">calendar_month</span></div>
+                        <div class="hero_form_icon"><i class="fa-solid fa-calendar-days"></i></div>
                         <div class="hero_form_title">Return date</div>
                         <div class="hero_form_text">Thu 16 Feb, 11:00</div>
                     </div>
                     <button class="hero_btn">Search</button>
-                </form> 
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="how" id="how">
+        <div class="container">
+            <div class="how_wrap">
+                <hgroup class="how_hgroup common_hgroup">
+                    <div class="common_title">How It Work</div>
+                    <h2 class="how_heading common_heading">Rent with following 3 working steps</h2>
+                </hgroup>
+                <div class="how_group">
+                    <div class="how_item">
+                        <div class="how_icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <h3 class="how_title">Choose location</h3>
+                        <p class="how_text">Choose your and find your best car</p>
+                    </div>
+                    <div class="how_item">
+                        <div class="how_icon"><i class="fa-solid fa-calendar-days"></i></div>
+                        <h3 class="how_title">Pick-up date</h3>
+                        <p class="how_text">Select your pick up date and time to book your car</p>
+                    </div>
+                    <div class="how_item">
+                        <div class="how_icon"><i class="fa-solid fa-car"></i></div>
+                        <h3 class="how_title">Book your car</h3>
+                        <p class="how_text">Book your car and we will deliver it directly to you</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="brands">
+        <div class="container">
+            <div class="brands_wrap">
+                <div class="brands_logo"><img src="./img/brands/audi.svg" alt=""></div>
+                <div class="brands_logo"><img src="./img/brands/bmw.svg" alt=""></div>
+                <div class="brands_logo"><img src="./img/brands/citroen.svg" alt=""></div>
+                <div class="brands_logo"><img src="./img/brands/ford.svg" alt=""></div>
+                <div class="brands_logo"><img src="./img/brands/honda.svg" alt=""></div>
+                <div class="brands_logo"><img src="./img/brands/kia.svg" alt=""></div>
+                <div class="brands_logo"><img src="./img/brands/mercedes.svg" alt=""></div>
+                <div class="brands_logo"><img src="./img/brands/opel.svg" alt=""></div>
+                <div class="brands_logo"><img src="./img/brands/skoda.svg" alt=""></div>
+                <div class="brands_logo"><img src="./img/brands/volvo.svg" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <section class="why" id="why">
+        <div class="container">
+            <div class="why_wrap">
+                <div class="why_block">
+                    <hgroup class="why_hgroup common_hgroup">
+                        <div class="common_title">Why Choose Us</div>
+                        <h2 class="why_heading common_heading">We offer the best experience with our rental deals</h2>
+                    </hgroup>
+                    <div class="why_group">
+                        <div class="why_item">
+                            <div class="why_icon"><i class="fa-solid fa-wallet"></i></div>
+                            <h4 class="why_name">Best price guaranteed</h4>
+                            <p class="why_text">Find a lower price? We’ll refund you 100% of the difference.</p>
+                        </div>
+                        <div class="why_item">
+                            <div class="why_icon"><i class="fa-solid fa-user-check"></i></div>
+                            <h4 class="why_name">Experience driver</h4>
+                            <p class="why_text">Don’t have driver? Don’t worry, we have many experienced driver for you.</p>
+                        </div>
+                        <div class="why_item">
+                            <div class="why_icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
+                            <h4 class="why_name">24 hour car delivery</h4>
+                            <p class="why_text">Book your car anytime and we will deliver it directly to you.</p>
+                        </div>
+                        <div class="why_item">
+                            <div class="why_icon"><i class="fa-solid fa-comments"></i></div>
+                            <h4 class="why_name">24/7 technical support</h4>
+                            <p class="why_text">Have a question? Contact Rentcars support any time when you have problem.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="deals">
+        <div class="container">
+            <div class="deals_wrap">
+                <hgroup class="deals_hgroup common_hgroup">
+                    <div class="common_title">Popular Rental Deals</div>
+                    <h2 class="deals_heading common_heading">Most popular cars rental deals</h2>
+                </hgroup>
+                <div class="deals_group">
+                    <div class="deals_card">
+                        <div class="deals_img">
+                            <img src="./img/c_jaguar.png" alt="Jaguar">
+                        </div>
+                        <div class="deals_desc">
+                            <div class="deals_head">
+                                <h5 class="deals_name">Jaguar XE L P250</h5>
+                                <div class="deals_rating">
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span>4.8</span>
+                                    <span>(2.436 reviews)</span>
+                                </div>
+                            </div>
+                            <div class="deals_body">
+                                <div class="deals_item">
+                                    <span class="deals_icon"><i class="fa-solid fa-user"></i></span>
+                                    <div class="deals_text">4 Passagers</div>
+                                </div>
+                                <div class="deals_item">
+                                    <span class="deals_icon"><i class="fa-solid fa-code-branch"></i></span>
+                                    <div class="deals_text">Auto</div>
+                                </div>
+                                <div class="deals_item">
+                                    <span class="deals_icon"><i class="fa-solid fa-snowflake"></i></span>
+                                    <div class="deals_text">Air Conditioning</div>
+                                </div>
+                                <div class="deals_item">
+                                    <span class="deals_icon"><i class="fa-solid fa-car-side"></i></span>
+                                    <div class="deals_text">4 Doors</div>
+                                </div>
+                            </div>
+                            <hr class="deals_hr">
+                            <div class="deals_foot">
+                                <div class="deals_price">Price</div>
+                                <div class="deals_price_num">
+                                    <span>$1,800</span> /day
+                                </div>
+                            </div>
+                            <a href="#" class="deals_btn">Rent Now <span>→</span></a>
+                        </div>
+                    </div>
+                    <div class="deals_card">
+                        <div class="deals_img">
+                            <img src="./img/c_audi.png" alt="Audi">
+                        </div>
+                        <div class="deals_desc">
+                            <div class="deals_head">
+                                <h5 class="deals_name">Jaguar XE L P250</h5>
+                                <div class="deals_rating">
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span>4.8</span>
+                                    <span>(2.436 reviews)</span>
+                                </div>
+                            </div>
+                            <div class="deals_body">
+                                <div class="deals_item">
+                                    <span class="deals_icon"><i class="fa-solid fa-user"></i></span>
+                                    <div class="deals_text">4 Passagers</div>
+                                </div>
+                                <div class="deals_item">
+                                    <span class="deals_icon"><i class="fa-solid fa-code-branch"></i></span>
+                                    <div class="deals_text">Auto</div>
+                                </div>
+                                <div class="deals_item">
+                                    <span class="deals_icon"><i class="fa-solid fa-snowflake"></i></span>
+                                    <div class="deals_text">Air Conditioning</div>
+                                </div>
+                                <div class="deals_item">
+                                    <span class="deals_icon"><i class="fa-solid fa-car-side"></i></span>
+                                    <div class="deals_text">4 Doors</div>
+                                </div>
+                            </div>
+                            <hr class="deals_hr">
+                            <div class="deals_foot">
+                                <div class="deals_price">Price</div>
+                                <div class="deals_price_num">
+                                    <span>$1,800</span> /day
+                                </div>
+                            </div>
+                            <a href="#" class="deals_btn">Rent Now <span>→</span></a>
+                        </div>
+                    </div>
+                    <div class="deals_card">
+                        <div class="deals_img">
+                            <img src="./img/c_bmw.png" alt="BMW">
+                        </div>
+                        <div class="deals_desc">
+                            <div class="deals_head">
+                                <h5 class="deals_name">Jaguar XE L P250</h5>
+                                <div class="deals_rating">
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span>4.8</span>
+                                    <span>(2.436 reviews)</span>
+                                </div>
+                            </div>
+                            <div class="deals_body">
+                                <div class="deals_item">
+                                    <span class="deals_icon"><i class="fa-solid fa-user"></i></span>
+                                    <div class="deals_text">4 Passagers</div>
+                                </div>
+                                <div class="deals_item">
+                                    <span class="deals_icon"><i class="fa-solid fa-code-branch"></i></span>
+                                    <div class="deals_text">Auto</div>
+                                </div>
+                                <div class="deals_item">
+                                    <span class="deals_icon"><i class="fa-solid fa-snowflake"></i></span>
+                                    <div class="deals_text">Air Conditioning</div>
+                                </div>
+                                <div class="deals_item">
+                                    <span class="deals_icon"><i class="fa-solid fa-car-side"></i></span>
+                                    <div class="deals_text">4 Doors</div>
+                                </div>
+                            </div>
+                            <hr class="deals_hr">
+                            <div class="deals_foot">
+                                <div class="deals_price">Price</div>
+                                <div class="deals_price_num">
+                                    <span>$1,800</span> /day
+                                </div>
+                            </div>
+                            <a href="#" class="deals_btn">Rent Now <span>→</span></a>
+                        </div>
+                    </div>
+                    <div class="deals_card">
+                        <div class="deals_img">
+                            <img src="./img/c_lambo.png" alt="Lamborgini">
+                        </div>
+                        <div class="deals_desc">
+                            <div class="deals_head">
+                                <h5 class="deals_name">Jaguar XE L P250</h5>
+                                <div class="deals_rating">
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span>4.8</span>
+                                    <span>(2.436 reviews)</span>
+                                </div>
+                            </div>
+                            <div class="deals_body">
+                                <div class="deals_item">
+                                    <span class="deals_icon"><i class="fa-solid fa-user"></i></span>
+                                    <div class="deals_text">4 Passagers</div>
+                                </div>
+                                <div class="deals_item">
+                                    <span class="deals_icon"><i class="fa-solid fa-code-branch"></i></span>
+                                    <div class="deals_text">Auto</div>
+                                </div>
+                                <div class="deals_item">
+                                    <span class="deals_icon"><i class="fa-solid fa-snowflake"></i></span>
+                                    <div class="deals_text">Air Conditioning</div>
+                                </div>
+                                <div class="deals_item">
+                                    <span class="deals_icon"><i class="fa-solid fa-car-side"></i></span>
+                                    <div class="deals_text">4 Doors</div>
+                                </div>
+                            </div>
+                            <hr class="deals_hr">
+                            <div class="deals_foot">
+                                <div class="deals_price">Price</div>
+                                <div class="deals_price_num">
+                                    <span>$1,800</span> /day
+                                </div>
+                            </div>
+                            <a href="#" class="deals_btn">Rent Now <span>→</span></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="deals_more">Show all vehicles <span>→</span></a>
+            </div>
+        </div>
+    </section>
+    <section class="app">
+        <div class="container">
+            <div class="app_wrap">
+                <div class="app_block">
+                    <div class="common_title">Download</div>
+                    <h2 class="app_title">Download Rentcars App for <span class="app_highlight">Free</span></h2>
+                    <p class="app_text">For faster, easier booking and exclusive deals.</p>
+                    <div class="app_market">
+                        <a href="#" class="app_link">
+                            <img src="./img/play_market.svg" alt="Play Market">
+                        </a>
+                        <a href="#" class="app_link">
+                            <img src="./img/app_store.svg" alt="App Store">
+                        </a>
+                    </div>
+                </div>
+                <div class="app_img">
+                    <img src="./img/phone.png" alt="Mobile App">
+                </div>
             </div>
         </div>
     </section>
 </body>
-</html>
-
 
 </html>

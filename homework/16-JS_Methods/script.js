@@ -42,7 +42,7 @@ const uniqueTransactions = normalTransactions.filter((item, index, array) => {
 });
 
 
-// RUB → USD (1 USD = 90 RUB)
+// RUB - USD (1 USD = 90 RUB)
 
 const convertedTransactions = uniqueTransactions.map(item => {
 

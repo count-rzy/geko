@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 13%;
+    height: 100vh;
+    background-color:black;
+}
+.ekran{
+    position: relative;
+    top: 10%;
+width: 100%;
+height:30%;
+border-radius: 100%;
+border-top:2px solid red ;
+border-bottom: none;
+}
+.ekran_text{
+position: relative;
+bottom:20%;
+    color: red;
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+}
+.rows_group{
+    margin-left:30%;
+    margin-right:30%;
+display: grid;
+grid-template-columns:repeat(8,1fr);
+grid-template-rows: repeat(6,1fr);
+gap: 20px;
+    
+}
+.row{
+    color: white;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    aspect-ratio: 1/1;
+    border: 1px solid red;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.row:hover{
+background-color: red;
+color: red;
+}
+
+.texer{
+    display:flex;
+    gap: 10px;
+    position: relative;
+    left:20%;
+    top:10%;
+    flex-direction: row;
+}
+.azat{
+    width: 40px;
+   height: 40px;
+    border: 1px solid red;
+    border-radius: 10px;
+
+}
+.azat_tex{
+color: white;
+}
+.zbaxvac{
+   background-color:white ;
+    margin-left: 10%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+.zbaxvac_tex{
+color: white;
+}
+.yntrvac{
+    margin-left: 10%;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.yntrvac_tex{
+color: white;
+}
+.btn{
+    position: relative;
+    left:40%;
+    top:0%;
+    margin-bottom: 20%;
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.free{
+    background-color: black;
+}
+.selected{
+    background-color: red;
+}
+.occupied{
+    background-color: white;
+    cursor: not-allowed;
+}
+
+p{
+    color: white;
+
+}

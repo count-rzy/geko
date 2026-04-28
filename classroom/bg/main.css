@@ -1,0 +1,123 @@
+body {
+
+margin: 0;
+
+height: 100vh;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+background: #eeeeee;
+
+font-family: arial;
+
+}
+
+
+
+.container {
+
+text-align: center;
+
+}
+
+
+
+/* контейнер input */
+
+.inputBox {
+
+position: relative;
+
+width: 500px;
+
+height: 80px;
+
+}
+
+
+
+/* сам input */
+
+.inputBox input {
+
+width: 100%;
+
+height: 100%;
+
+border-radius: 40px;
+
+border: 4px solid black;
+
+font-size: 32px;
+
+padding-left: 60px;
+
+box-sizing: border-box;
+
+}
+
+
+
+/* символ # внутри поля */
+
+.hash {
+
+position: absolute;
+
+left: 25px;
+
+top: 50%;
+
+transform: translateY(-50%);
+
+font-size: 32px;
+
+}
+
+
+
+/* кнопки */
+
+.buttons {
+
+margin-top: 30px;
+
+display: flex;
+
+justify-content: center;
+
+gap: 50px;
+
+}
+
+
+
+button {
+
+width: 200px;
+
+height: 60px;
+
+font-size: 24px;
+
+border-radius: 30px;
+
+border: 4px solid black;
+
+background: white;
+
+cursor: pointer;
+
+}
+
+
+
+button:hover {
+
+background: #dddddd;
+
+}

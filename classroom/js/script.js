@@ -18,82 +18,39 @@
 //}
 
 //console.log(naxadasutyun('jdeb ijgs igie'))
-const cells = document.querySelectorAll(".cell");
-const statusText = document.getElementById("status");
 
-let currentPlayer = "x";
-let gameActive = true;
+//class Fish{
+ //   constructor(anun, gin, qanak){
+    //   this.anun = anun
+  //     this.gin = gin
+//       this.qanak = qanak
+//    }
+//}
 
-let board = ["","","","","","","","",""];
+//const fugu = new Fish('fugu', '$400', 'liqy')
 
-const winPatterns = [
-[0,1,2],
-[3,4,5],
-[6,7,8],
-[0,3,6],
-[1,4,7],
-[2,5,8],
-[0,4,8],
-[2,4,6]
-];
+//console.log(fugu)
 
-cells.forEach((cell, index) => {
-cell.addEventListener("click", () => cellClick(cell, index));
-});
+class Transport{
+    constructor(tesak, qanak){
+this.tesak = tesak
+this.qanak = qanak
 
-function cellClick(cell, index) {
-
-if(board[index] !== "" || !gameActive) return;
-
-board[index] = currentPlayer;
-
-cell.classList.add(currentPlayer);
-
-checkWinner();
-
-currentPlayer = currentPlayer === "x" ? "o" : "x";
-
-statusText.textContent = "Ход: " + currentPlayer.toUpperCase();
+    }
 }
 
-function checkWinner() {
+class Info extends Transport{
+    constructor(tesak, qanak, model, gin){
+        super(tesak, qanak)
+    this.gin = gin 
+    this.model = model
+}
 
-for(let pattern of winPatterns) {
-
-let [a,b,c] = pattern;
-
-if(
-board[a] &&
-board[a] === board[b] &&
-board[a] === board[c]
-){
-statusText.textContent =
-"Победил: " + currentPlayer.toUpperCase();
-
-gameActive = false;
-return;
+    info(){
+    console.log(`aha dzer ${this.tesak}nery, ${this.qanak} hat ${this.model} modeli, voronq arjen ${this.gin}`)
 }
 }
 
-if(!board.includes("")) {
+const avto = new Info('inqnatir', 2, 'Airbus A350',  '$16.000.000')
 
-statusText.textContent = "Ничья!";
-gameActive = false;
-}
-}
-
-function restartGame() {
-
-board = ["","","","","","","","",""];
-
-gameActive = true;
-
-currentPlayer = "x";
-
-statusText.textContent = "Ход: X";
-
-cells.forEach(cell => {
-cell.classList.remove("x");
-cell.classList.remove("o");
-});
-}
+avto.info()

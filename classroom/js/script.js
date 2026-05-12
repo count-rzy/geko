@@ -31,26 +31,41 @@
 
 //console.log(fugu)
 
-class Transport{
-    constructor(tesak, qanak){
-this.tesak = tesak
-this.qanak = qanak
+//class Transport{
+//    constructor(tesak, qanak){
+//this.tesak = tesak
+//this.qanak = qanak
+//
+ //   }
+//}
 
-    }
-}
+//class Info extends Transport{
+  //  constructor(tesak, qanak, model, gin){
+    //    super(tesak, qanak)
+    //this.gin = gin 
+    //this.model = model
+//}
 
-class Info extends Transport{
-    constructor(tesak, qanak, model, gin){
-        super(tesak, qanak)
-    this.gin = gin 
-    this.model = model
-}
+  //  info(){
+   // console.log(`aha dzer ${this.tesak}nery, ${this.qanak} hat ${this.model} modeli, voronq arjen ${this.gin}`)
+//}
+//}
 
-    info(){
-    console.log(`aha dzer ${this.tesak}nery, ${this.qanak} hat ${this.model} modeli, voronq arjen ${this.gin}`)
-}
-}
+//const avto = new Info('inqnatir', 2, 'Airbus A350',  '$16.000.000')
 
-const avto = new Info('inqnatir', 2, 'Airbus A350',  '$16.000.000')
+//avto.info()
 
-avto.info()
+
+//const btn = document.createElement('button')
+
+
+//btn.addEventListener('click', ()=>{
+//    console.log('es chem sovorum js');
+//}
+//);
+
+const arr=[18, 6, -2, 0, -14, 1]
+
+const result=arr.map(x=>Math.abs(x * 2));
+
+console.log(result);

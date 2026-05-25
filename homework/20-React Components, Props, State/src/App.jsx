@@ -1,5 +1,6 @@
 import StudentList from "./components/StudentList/StudentList";
 import { useState } from "react";
+import StudentForm from "./components/StudentForm/StudentForm";
 
 function App() {
 
@@ -28,12 +29,37 @@ function App() {
       color: "lightgreen",
     },
   ]);
+  const deleteStudent = (id) => {
+  setStudents(
+    students.filter((student) => student.id !== id)
+  );
+};
+const addStudent = (newStudent) => {
+  const colors = ["red", "blue", "green", "orange", "purple"];
+
+  const randomColor =
+    colors[Math.floor(Math.random() * colors.length)];
+
+  const student = {
+    id: Date.now(),
+    ...newStudent,
+    color: randomColor,
+  };
+
+  setStudents([...students, student]);
+};
 
   return (
     <div>
       <h1>Student Manager</h1>
 
-      <StudentList students={students} />
+      <StudentForm onAddStudent={addStudent} />
+
+
+      <StudentList
+  students={students}
+  onDelete={deleteStudent}
+/>
     </div>
   );
 }

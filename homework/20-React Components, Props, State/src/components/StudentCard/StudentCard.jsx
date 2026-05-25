@@ -1,6 +1,6 @@
 import "./StudentCard.css";
 
-function StudentCard({ name, age, profession, color }) {
+function StudentCard({ name, age, profession, color, onDelete }) {
   return (
     <div
   className="student-card"
@@ -10,7 +10,7 @@ function StudentCard({ name, age, profession, color }) {
 <p>Age: {age}</p>
 <p>Profession: {profession}</p>
 
-      <button>Delete</button>
+      <button onClick={onDelete}>Delete</button>
     </div>
   );
 }

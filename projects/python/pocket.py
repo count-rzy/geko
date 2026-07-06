@@ -1,4 +1,5 @@
-print1 = 'Hello '
-print2 = 'World!'
-print = print1 + print2
-Helloworld = 'print'
+a = int(input('greq arajin tivy     '))
+b = int(input('greq errkrord tivy   '))
+
+c = a + b
+print(c)

@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+}
+
+.board {
+    width: 90vmin;
+    height: 90vmin;
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
+    border: 6px solid #222;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.qarakusi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7.5vmin; 
+    background: #f0d9b5;
+    user-select: none;
+}
+
+.row:nth-child(odd) .qarakusi:nth-child(odd),
+.row:nth-child(even) .qarakusi:nth-child(even) {
+    background: #b58863;
+}
+
+.sev-navak::before     { content: "♜"; color: #000; }
+.sev-dzi::before       { content: "♞"; color: #000; }
+.sev-pix::before       { content: "♝"; color: #000; }
+.sev-taguhi::before    { content: "♛"; color: #000; }
+.sev-tagavor::before   { content: "♚"; color: #000; }
+.sev-zinvor::before    { content: "♟"; color: #000; }
+
+.spitak-navak::before   { content: "♖"; color: #000; }
+.spitak-dzi::before     { content: "♘"; color: #000; }
+.spitak-pix::before     { content: "♗"; color: #000; }
+.spitak-taguhi::before  { content: "♕"; color: #000; }
+.spitak-tagavor::before { content: "♔"; color: #000; }
+.spitak-zinvor::before  { content: "♙"; color: #000; }
+
+.qarakusi:not([class="qarakusi"]):hover {
+    cursor: grab;
+}
+
+.qarakusi:not([class="qarakusi"]):active {
+    cursor: grabbing;
+}

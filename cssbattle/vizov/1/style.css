@@ -1,0 +1,38 @@
+body{
+  margin:0;
+  display:grid;
+  place-items:center;
+  height:100vh;
+  background:#926927;
+}
+
+.container{
+  width:400px;
+  height:300px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:110px;
+}
+
+.stick{
+  width:30px;
+  height:250px;
+  background:#F8B140;
+  border-radius:15px;
+}
+
+.stick::before{
+  content:"";
+  display:block;
+  width:100px;
+  height:100px;
+  background:#F8B140;
+  border:10px solid #926927;
+  border-radius:50%;
+  translate:-45px 35px;
+}
+
+.reverse{
+  rotate:180deg;
+}

@@ -1,0 +1,28 @@
+body{
+  margin:0;
+  display:grid;
+  place-items:center;
+  height:100vh;
+  background:#F5D6B4;
+}
+
+.container{
+  width:400px;
+  height:300px;
+  display:grid;
+  justify-content:center;
+  align-content:center;
+  justify-items:center;
+  gap:0 20px;
+}
+
+.circle{
+  width:100px;
+  height:100px;
+  background:#D86F45;
+  border-radius:50%;
+}
+
+.top{
+  grid-column:1/3;
+}

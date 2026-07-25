@@ -1,0 +1,27 @@
+body{
+  margin:0;
+  display:grid;
+  place-items:center;
+  height:100vh;
+  background:linear-gradient(#F7EC7D 50%,#62306D 50%);
+}
+
+.container{
+  width:400px;
+  height:300px;
+  display:flex;
+  align-items:center;
+}
+
+.circle{
+  width:150px;
+  height:150px;
+  background:#62306D;
+  border-radius:50%;
+}
+
+.center{
+  width:100px;
+  height:100px;
+  background:#F7EC7D;
+}

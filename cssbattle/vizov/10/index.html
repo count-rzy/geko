@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="container">
+  <div class="cloud"></div>
+  <div class="tail"></div>
+</div>
+
+<style>
+body{
+  margin:0;
+  display:grid;
+  place-items:center;
+  background:#4F77FF;
+}
+
+.container{
+  width:400px;
+  height:300px;
+  display:grid;
+  justify-items:center;
+  align-content:center;
+}
+
+.cloud{
+  width:250px;
+  height:150px;
+  background:#FFF;
+  border-radius:50%;
+}
+
+.tail{
+  width:48px;
+  height:30px;
+  margin:0;
+  background:#FFF;
+  clip-path:polygon(0 -2px,100% -2px,50% 100%);
+  box-shadow:0 -2px #FFF;
+}
+</style>
+</body>
+</html>

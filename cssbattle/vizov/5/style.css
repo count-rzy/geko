@@ -1,0 +1,12 @@
+body {
+    background: #E3516E;
+    display: grid;
+    place-items: center;
+    rotate: 45deg;
+  }
+  div {
+    width: 160px;
+    height: 160px;
+    background: #FADE8B;
+    box-shadow: 190px 0px #FADE8B, -190px 0px #FADE8B, 0px 190px #FADE8B, 0px -190px #FADE8B;
+  }

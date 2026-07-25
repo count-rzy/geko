@@ -1,0 +1,43 @@
+body{
+  margin:0;
+  display:grid;
+  place-items:center;
+  background:#6592CF;
+}
+
+.container{
+  width:400px;
+  height:300px;
+  position:relative;
+  display:grid;
+  place-items:center;
+}
+
+.line,
+.center{
+  position:absolute;
+}
+
+.line{
+  width:250px;
+  height:60px;
+  background:#060F55;
+  border-radius:30px;
+}
+
+.vertical{
+  rotate:90deg;
+}
+
+.center{
+  width:60px;
+  height:60px;
+  background:#6592CF;
+  border-radius:50%;
+  box-shadow:
+    -60px -60px #6592CF,
+     60px -60px #6592CF,
+    -60px  60px #6592CF,
+     60px  60px #6592CF,
+     0 0 0 35px #060F55;
+}

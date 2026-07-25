@@ -1,0 +1,36 @@
+body{
+  margin:0;
+  display:grid;
+  place-items:center;
+  background:#998235;
+}
+
+.container{
+  width:400px;
+  height:300px;
+  position:relative;
+  display:grid;
+  place-items:center;
+}
+
+.shape{
+  position:absolute;
+  width:28px;
+  height:169px;
+  background:#998235;
+  transform:skew(45deg) translate(4px,4px);
+}
+
+.left,
+.center{
+  height:209px;
+  background:#0B2429;
+}
+
+.left{
+  transform:skew(-45deg) translate(-4px,4px);
+}
+
+.center{
+  width:85px;
+}

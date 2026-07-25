@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="container">
+  <div class="bar"></div>
+  <div class="bar"></div>
+</div>
+
+<div class="container vertical">
+  <div class="bar"></div>
+  <div class="bar"></div>
+</div>
+
+<div class="container">
+  <div class="bar"></div>
+  <div class="bar"></div>
+</div>
+
+<div class="container vertical">
+  <div class="bar"></div>
+  <div class="bar"></div>
+</div>
+
+<style>
+body{
+  margin:0;
+  display:grid;
+  place-items:center;
+  background:#926927;
+}
+
+.container{
+  width:400px;
+  height:300px;
+  position:absolute;
+  display:grid;
+  place-content:center;
+  gap:40px;
+}
+
+.vertical{
+  rotate:90deg;
+}
+
+.bar{
+  width:200px;
+  height:40px;
+  background:#F8B140;
+  border-radius:40px;
+}
+</style>
+</body>
+</html>

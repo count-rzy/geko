@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+  <div class="shape top"></div>
+  <div class="shape bottom"></div>
+  <div class="circle"></div>
+</div>
+
+<style>
+body{
+  margin:0;
+  display:grid;
+  place-items:center;
+  background:#62306D;
+}
+
+.container{
+  width:400px;
+  height:300px;
+  position:relative;
+  background:#62306D;
+}
+
+.shape{
+  position:absolute;
+  right:0;
+  background:#F7EC7D;
+}
+
+.top{
+  width:220px;
+  height:170px;
+  clip-path:polygon(8px 46%,8.5% 26%,14% 10%,18% 0,100% 0,100% 100%,0 100%,0 89%,1px 70%,3px 60%);
+}
+
+.bottom{
+  right:0;
+  bottom:0;
+  width:180px;
+  height:180px;
+  clip-path:polygon(0 0,100% 0,100% 100%,22% 100%,17% 90%,12% 79%,11px 63%,4px 45%,0 27%,0 10%);
+}
+
+.circle{
+  position:absolute;
+  left:60px;
+  top:65px;
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  background:#F7EC7D;
+  box-shadow:220px 0 #62306D;
+}
+</style>
+</html>

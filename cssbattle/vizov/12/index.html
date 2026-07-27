@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+  <div class="circle"></div>
+  <div class="center"></div>
+
+  <div class="line"></div>
+  <div class="line r45"></div>
+  <div class="line r90"></div>
+  <div class="line r135"></div>
+  <div class="line r180"></div>
+  <div class="line r225"></div>
+  <div class="line r270"></div>
+  <div class="line r315"></div>
+</div>
+
+<style>
+body{
+  margin:0;
+  display:grid;
+  place-items:center;
+  background:#E3516E;
+}
+
+.container{
+  width:400px;
+  height:300px;
+  position:relative;
+  display:grid;
+  place-items:center;
+}
+
+.circle,
+.center,
+.line{
+  position:absolute;
+}
+
+.circle{
+  width:200px;
+  height:200px;
+  background:#FADE8B;
+  border-radius:50%;
+}
+
+.center{
+  width:60px;
+  height:60px;
+  background:#E3516E;
+  border-radius:50%;
+}
+
+.line{
+  width:20px;
+  height:30px;
+  background:#E3516E;
+  border-radius:10px;
+  transform:translateY(-65px);
+  transform-origin:10px 80px;
+}
+
+.r45{ transform:translateY(-65px) rotate(45deg); }
+.r90{ transform:translateY(-65px) rotate(90deg); }
+.r135{ transform:translateY(-65px) rotate(135deg); }
+.r180{ transform:translateY(-65px) rotate(180deg); }
+.r225{ transform:translateY(-65px) rotate(225deg); }
+.r270{ transform:translateY(-65px) rotate(270deg); }
+.r315{ transform:translateY(-65px) rotate(315deg); }
+</style>
+</body>
+</html>

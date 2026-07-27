@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+  <div class="side left"></div>
+  <div class="pillar"></div>
+  <div class="side right"></div>
+</div>
+
+<style>
+body{
+  margin:0;
+  display:grid;
+  place-items:center;
+  background:#6592CF;
+}
+
+.container{
+  width:400px;
+  height:300px;
+  position:relative;
+}
+
+.pillar,
+.side{
+  position:absolute;
+  bottom:0;
+  background:#060F55;
+}
+
+.pillar{
+  width:40px;
+  height:200px;
+  left:180px;
+}
+
+.side{
+  width:40px;
+  height:120px;
+}
+
+.left{
+  left:152px;
+  bottom:112px;
+  rotate:45deg;
+  border-radius:20px 0 0;
+}
+
+.right{
+  left:208px;
+  bottom:112px;
+  rotate:-45deg;
+  border-radius:0 20px 0 0;
+}
+</style>
+</body>
+</html>

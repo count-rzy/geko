@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="container">
+  <div class="block top"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block bottom"></div>
+</div>
+
+<style>
+body{
+  margin:0;
+  display:grid;
+  place-items:center;
+  background:#E3516E;
+}
+
+.container{
+  width:400px;
+  height:300px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:0 50px;
+  padding:0 75px;
+  box-sizing:border-box;
+}
+
+.block{
+  width:100px;
+  height:150px;
+  background:#FADE8B;
+}
+
+.top{
+  translate:0 -50px;
+}
+
+.bottom{
+  translate:0 50px;
+}
+</style>  
+</body>
+</html>
